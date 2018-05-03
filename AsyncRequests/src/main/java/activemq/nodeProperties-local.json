@@ -1,0 +1,12 @@
+{
+		"NODE_1": {
+			"name": "NODE1-Q",
+			"url": "failover:(tcp://localhost:61616)?randomize=false&timeout=30000",
+			"type": "AMQ"
+		},
+		"F-N-1": {
+			"name": "NODE1-Q",
+			"url": "failover:(tcp://10.19.0.221:61616)?randomize=false&timeout=30000",
+			"type": "AMQ"
+		}
+}
